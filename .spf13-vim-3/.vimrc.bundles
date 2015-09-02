@@ -143,6 +143,7 @@
             Plugin 'vim-scripts/taglist.vim'
             "多文档编辑器
             Plugin 'fholgado/minibufexpl.vim'
+            Bundle 'bufexplorer.zip'
             "TODO列表
             Bundle 'vim-scripts/TaskList.vim'
             "窗口管理工具

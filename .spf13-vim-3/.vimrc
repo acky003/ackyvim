@@ -687,7 +687,7 @@
          nmap <F3> :WMToggle<cr>
 
          " 这里可以设置为多个窗口, 如'FileExplorer|TagList'
-         let g:winManagerWindowLayout = "FileExplorer,BufExplorer|TagList"
+         let g:winManagerWindowLayout = "BufExplorer,FileExplorer|TagList"
          let g:persistentBehaviour    = 0                 "只剩一个窗口时,退出vim
          let g:winManagerWidth        = 30                "设置窗口宽度
          let g:AutoOpenWinManager     = 1                 "在进入vim时自动打开winmanager
@@ -738,6 +738,7 @@
         "if isdirectory(expand("~/.vim/bundle/tagbar/"))
             "nnoremap <silent> <leader>tt :TagbarToggle<CR>
         "endif
+        nmap <F10> :TagbarToggle<CR>
         nmap <leader>tb :TagbarToggle<CR>  " \tb 打开tagbar窗口
         let g:tagbar_autofocus = 1"
      "}
